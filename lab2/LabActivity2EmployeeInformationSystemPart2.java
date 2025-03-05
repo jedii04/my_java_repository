@@ -1,10 +1,11 @@
+// Gerard Dustin M. Beltran BSCS-1A
 import java.util.Scanner;
 
 public class LabActivity2EmployeeInformationSystemPart2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input
+        // This will be the input
         System.out.print("Enter your first name: ");
         String firstName = scanner.nextLine();
 
@@ -20,7 +21,7 @@ public class LabActivity2EmployeeInformationSystemPart2 {
         System.out.print("Enter hourly wage: ");
         double hourlyWage = scanner.nextDouble();
 
-        // Computation
+        // This part will show the computation
         String fullName = (lastName + ", " + firstName).toUpperCase();
         int yearsToRetirement = Math.abs(65 - age);
         int dailySalary = (int) Math.round(hoursWorked * hourlyWage);
@@ -29,7 +30,7 @@ public class LabActivity2EmployeeInformationSystemPart2 {
         int grossYearlySalary = monthlySalary * 12;
         double netYearlySalary = grossYearlySalary - (grossYearlySalary * 0.32) - 1500;
 
-        // Output
+        // This is the output for the coding
         System.out.println("\nEmployee Information");
         System.out.println("----------------------");
         System.out.printf("%-20s: %s\n", "Full Name", fullName);
