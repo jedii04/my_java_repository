@@ -52,27 +52,27 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
 
         // Mga options (A, B, C, D)
         options[0] = new Checkbox("", group, false);
-        options[0].setBounds(50, 90, 180, 20);
+        options[0].setBounds(10, 102, 180, 20);
         options[0].setForeground(Color.BLUE);
-        options[0].setFont(new Font("Dialog", Font.PLAIN, 13));
+        options[0].setFont(new Font("Dialog", Font.PLAIN, 16));
         add(options[0]);
 
         options[1] = new Checkbox("", group, false);
-        options[1].setBounds(270, 90, 180, 20);
+        options[1].setBounds(250, 102, 180, 20);
         options[1].setForeground(Color.BLUE);
-        options[1].setFont(new Font("Dialog", Font.PLAIN, 13));
+        options[1].setFont(new Font("Dialog", Font.PLAIN, 16));
         add(options[1]);
 
         options[2] = new Checkbox("", group, false);
-        options[2].setBounds(50, 120, 180, 20);
+        options[2].setBounds(10, 182, 180, 20);
         options[2].setForeground(Color.BLUE);
-        options[2].setFont(new Font("Dialog", Font.PLAIN, 13));
+        options[2].setFont(new Font("Dialog", Font.PLAIN, 16));
         add(options[2]);
 
         options[3] = new Checkbox("", group, false);
-        options[3].setBounds(270, 120, 180, 20);
+        options[3].setBounds(250, 182, 180, 20);
         options[3].setForeground(Color.BLUE);
-        options[3].setFont(new Font("Dialog", Font.PLAIN, 13));
+        options[3].setFont(new Font("Dialog", Font.PLAIN, 16));
         add(options[3]);
 
         // Label para sa message (validation)
