@@ -204,7 +204,7 @@ Key Components:
 
 5. A Window Listener is included for the window's close button. When the user clicks the close button (X), the window will close gracefully.
 
-### Workflow:
+Workflow:
 
 1. The user enters their first name, last name, age, hours worked, and hourly rate in the text fields.
 
@@ -246,3 +246,61 @@ Closing the Program:
 When the user closes the window, the program disposes of the frame and exits properly.
 
 This program is a simple but effective way of managing employee information and performing basic calculations through a graphical interface using Java AWT.
+
+Lab 5
+This Java program is a simple quiz application built using AWT (Abstract Window Toolkit) for GUI.
+
+What the program does:
+
+* It presents multiple-choice questions (3 questions total) to the user.
+* Each question has 4 options (A, B, C, D).
+* The user selects one option per question using checkboxes.
+* When the user clicks the Next button:
+
+  * The program checks if an option was selected.
+  * It verifies if the selected answer is correct and updates the score.
+  * It then loads the next question.
+  * After the last question, it displays the final score and disables further input.
+
+Key Features:
+
+* Shows one question at a time.
+* Only one option can be selected at a time (using `CheckboxGroup`).
+* Provides feedback if no answer is selected before pressing Next.
+* Displays the total score at the end of the quiz.
+* The window is styled with a dark blue top border and uses fonts/colors for better readability.
+* The quiz is non-resizable and centered on the screen.
+
+---
+
+Summary:
+
+This program is an interactive quiz app where users answer questions about data structures, CPU roles, and protocols, and then receive their score.
+
+Lab 6
+This Java program is a To-Do List application built using Swing for the graphical user interface.
+
+What the program is about:
+
+* It allows users to manage a list of tasks.
+* The main window displays a table listing tasks, each with:
+
+  * Task Name
+  * Task Description
+  * Status (Not Started, Ongoing, Completed)
+* There is an **"Add Task"** button that opens a separate form window.
+* In the form window, the user can:
+
+  * Enter the task name
+  * Enter a description
+  * Select the status from a dropdown menu
+* When the user clicks Save Task, the new task is added to the main table.
+* The tasks displayed in the table cannot be edited directly.
+* The program uses two windows:
+
+  * The main window with the task list.
+  * A popup form window to add new tasks.
+
+Summary:
+
+This program is a simple desktop To-Do List app where users can add tasks with descriptions and statuses, and view the list of tasks in a table format.
