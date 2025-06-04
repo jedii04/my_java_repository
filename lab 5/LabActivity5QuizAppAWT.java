@@ -77,14 +77,14 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
 
         // Label para sa message (validation)
         messageLabel = new Label("", Label.CENTER);
-        messageLabel.setBounds(50, 160, 400, 20);
+        messageLabel.setBounds(50, 237, 400, 20);
         messageLabel.setForeground(Color.BLACK);
         messageLabel.setAlignment(Label.CENTER);
         add(messageLabel);
 
         // Button para sa "Next"
         nextButton = new Button("Next");
-        nextButton.setBounds(0, 255, 500, 40); // Full width
+        nextButton.setBounds(0, 260, 500, 40); // Full width
         nextButton.setFont(new Font("Arial", Font.BOLD, 16));
         nextButton.setBackground(Color.WHITE);
         nextButton.setForeground(Color.BLACK);
