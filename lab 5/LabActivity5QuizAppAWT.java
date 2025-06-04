@@ -119,12 +119,14 @@ public class LabActivity5QuizAppAWT extends Frame implements ActionListener {
             messageLabel.setText(""); // I-clear ang message
         } else {
             // Kapag tapos na ang quiz
-            questionLabel.setText("Quiz Completed! Your Score: " + score + " out of " + questions.length);
-            for (Checkbox cb : options) {
-                cb.setEnabled(false); // Disable lahat ng choices
-            }
-            nextButton.setEnabled(false); // Disable ang Next button
-            messageLabel.setText(""); // I-clear ang message
+        questionLabel.setText("Quiz Completed! Your Score: " + score + " out of " + questions.length);
+        group.setSelectedCheckbox(null); // Unselect the selected choice (remove the black dot)
+        for (Checkbox cb : options) {
+            cb.setEnabled(false); // Disable lahat ng choices
+        }
+        nextButton.setEnabled(false); // Disable ang Next button
+        messageLabel.setText(""); // I-clear ang message
+
         }
     }
 
