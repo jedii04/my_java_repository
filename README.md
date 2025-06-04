@@ -1,8 +1,9 @@
 Lab 1 
+
 The program titled "LabActivity1EmployeeInformationSystem" is a simple Java console application designed to collect and display basic employee information.
 
-### Purpose:
-
+Purpose:
+ 
 To gather user input, compute a value (daily wage), and display formatted employee information. It demonstrates the use of:
 
 * Input/output operations
@@ -61,7 +62,8 @@ This program is most likely a beginner-level lab activity for learning how to us
 * Variables and data types
 * Simple calculations and output formatting in Java
 ---
-Lab 2 
+Lab 2
+
 The LabActivity2EmployeeInformationSystemPart2 program is an enhanced version of the previous employee information system. In addition to gathering basic employee details such as first name, last name, age, hours worked, and hourly wage, this program performs more complex calculations, including determining the employee’s years to retirement, daily salary, weekly salary, monthly salary, gross yearly salary, and net yearly salary after tax deductions and fixed expenses.
 
 The program first collects the user’s input, including the first name, last name, age, hours worked, and hourly wage. It then calculates several additional values:
@@ -110,7 +112,8 @@ This program enhances the basic understanding of Java programming by introducing
 * Formatting the output neatly using `printf`
 * Handling **financial deductions** (taxes, expenses)
 ---
-Lab 3 
+Lab 3
+
 The Lab Activity 3 Conditional Statement program is designed to gather employee details, validate inputs, and compute their salary based on various factors such as their age, working hours, and job role. Here’s how the program works step by step:
 
 1. User Input:
@@ -165,8 +168,9 @@ This program is primarily used to:
 * Understand how to apply conditional logic to check for valid inputs.
 * Perform basic salary calculations and apply deductions based on conditions.
 * Display formatted output for user-friendly presentation.
-
+---
 MidtermLabExam
+
 The IT Ticket System program is a command-line application designed to manage IT support tickets. The program offers a simple way to add tickets, update their status, view all tickets, and generate reports.
 
 The program has a menu with five options:
@@ -185,7 +189,8 @@ The program stores tickets in arrays with a maximum capacity of 5 tickets. It va
 
 In summary, this program simulates a basic IT ticket management system, teaching fundamental concepts such as array manipulation, input validation, conditional logic, and menu-driven program design. It is a useful practice for beginners learning Java programming.
 ---
-Lab 4 
+Lab 4
+
 This program creates a graphical user interface (GUI) application using Java's AWT library to collect employee information, perform calculations, and display results. Here is an explanation of what the program does:
 
 Key Components:
