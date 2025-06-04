@@ -248,6 +248,7 @@ When the user closes the window, the program disposes of the frame and exits pro
 This program is a simple but effective way of managing employee information and performing basic calculations through a graphical interface using Java AWT.
 ---
 Lab 5
+
 This Java program is a simple quiz application built using AWT (Abstract Window Toolkit) for GUI.
 
 What the program does:
