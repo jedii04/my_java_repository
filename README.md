@@ -60,7 +60,7 @@ This program is most likely a beginner-level lab activity for learning how to us
 * The `Scanner` class for input
 * Variables and data types
 * Simple calculations and output formatting in Java
-  
+---
 Lab 2 
 The LabActivity2EmployeeInformationSystemPart2 program is an enhanced version of the previous employee information system. In addition to gathering basic employee details such as first name, last name, age, hours worked, and hourly wage, this program performs more complex calculations, including determining the employee’s years to retirement, daily salary, weekly salary, monthly salary, gross yearly salary, and net yearly salary after tax deductions and fixed expenses.
 
@@ -109,7 +109,7 @@ This program enhances the basic understanding of Java programming by introducing
 * Applying **mathematical operations** to compute future financial outcomes
 * Formatting the output neatly using `printf`
 * Handling **financial deductions** (taxes, expenses)
-
+---
 Lab 3 
 The Lab Activity 3 Conditional Statement program is designed to gather employee details, validate inputs, and compute their salary based on various factors such as their age, working hours, and job role. Here’s how the program works step by step:
 
@@ -184,7 +184,7 @@ The program has a menu with five options:
 The program stores tickets in arrays with a maximum capacity of 5 tickets. It validates inputs such as urgency level and ticket number to ensure users provide correct data. It also prevents the addition of new tickets once the maximum limit is reached.
 
 In summary, this program simulates a basic IT ticket management system, teaching fundamental concepts such as array manipulation, input validation, conditional logic, and menu-driven program design. It is a useful practice for beginners learning Java programming.
-
+---
 Lab 4 
 This program creates a graphical user interface (GUI) application using Java's AWT library to collect employee information, perform calculations, and display results. Here is an explanation of what the program does:
 
@@ -246,7 +246,7 @@ Closing the Program:
 When the user closes the window, the program disposes of the frame and exits properly.
 
 This program is a simple but effective way of managing employee information and performing basic calculations through a graphical interface using Java AWT.
-
+---
 Lab 5
 This Java program is a simple quiz application built using AWT (Abstract Window Toolkit) for GUI.
 
@@ -276,8 +276,9 @@ Key Features:
 Summary:
 
 This program is an interactive quiz app where users answer questions about data structures, CPU roles, and protocols, and then receive their score.
-
+---
 Lab 6
+
 This Java program is a To-Do List application built using Swing for the graphical user interface.
 
 What the program is about:
@@ -304,3 +305,4 @@ What the program is about:
 Summary:
 
 This program is a simple desktop To-Do List app where users can add tasks with descriptions and statuses, and view the list of tasks in a table format.
+---
