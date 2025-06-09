@@ -88,15 +88,15 @@ Builds upon Lab 2 with added input validation and conditional logic using `if`, 
 
 * Age validation:
 
-* <18: Minor (ineligible)
-* > 65: Senior (ineligible)
+  * <18: Minor (ineligible)
+  * > 65: Senior (ineligible)
 * Hours worked validation (must be between 1–24)
 * Job role input (via code: 1 = Manager, etc.)
 * Salary computation as in Lab 2
 * Tax rule:
 
-* > ₱250,000: 32% tax + ₱1500 deduction
-* ≤ ₱250,000: ₱1500 deduction only
+  * > ₱250,000: 32% tax + ₱1500 deduction
+  * ≤ ₱250,000: ₱1500 deduction only
 
 ✅ Sample Output Includes:
 
