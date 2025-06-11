@@ -181,7 +181,7 @@ A simple desktop application using Java Swing for managing tasks with a structur
 
 ---
 
- 📁 MidtermLabExam – IT Ticket Management System
+📁 MidtermLabExam – IT Ticket Management System
 
 📝 Description:
 
@@ -209,3 +209,43 @@ A console-based IT support ticket system with menu-driven interaction. Demonstra
 * Max ticket limit
 
 ---
+
+📁 FinalProject – Scientific Calculator with History (Swing GUI)
+
+📝 Description:
+
+A full-featured scientific calculator application built using Java Swing. This GUI-based tool performs basic and advanced operations, and maintains a history of calculations.
+
+💡 Features:
+Standard operations: +, −, ×, ÷, %, ^, √
+
+Decimal and negative number support
+
+Clear functions: AC, C, and CE
+
+Toggle sign (+/-)
+
+Calculation history view with toggle button
+
+Input validation (e.g., divide by zero, square root of negative number)
+
+🧰 Interface:
+Display Field: Shows current input/result
+
+Buttons Panel: Grid layout with 23 operation and digit buttons
+
+History Area: Scrollable panel shows past equations and results
+
+Responsive Layout: Adjusts to show/hide history on button click
+
+🧮 Sample Calculation:
+8 + 2 = 10
+10 * 3 = 30
+√30 = 5.477
+
+🔐 Error Handling:
+Division by zero → displays "Error"
+
+Invalid square root → displays "Error"
+
+Ensures decimal formatting and resets properly on each new operation
